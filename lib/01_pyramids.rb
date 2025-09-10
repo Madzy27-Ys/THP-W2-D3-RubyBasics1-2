@@ -38,9 +38,9 @@ def wtf_pyramid
 end
 
 def perform
-    puts half_pyramid
-    puts full_pyramid
-    puts wtf_pyramid
+    half_pyramid
+    full_pyramid
+    wtf_pyramid
 end
 
 perform
