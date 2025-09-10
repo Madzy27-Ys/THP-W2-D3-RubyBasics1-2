@@ -1,8 +1,12 @@
-def say_hello(first_name, prefix = "Bonjour,")
-    puts "#{prefix} #{first_name} !"
+def say_hello(first_name)
+    puts "Bonjour, #{first_name}"
 end
 
-puts "Quel est votre nom ?"
-print "> "
-first_name = gets.chomp
+def ask_first_name
+    puts "Quel est votre nom ?" 
+    print "> "
+    return gets.chomp
+end
+
+first_name = ask_first_name
 say_hello(first_name)
